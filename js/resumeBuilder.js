@@ -1,8 +1,8 @@
 var fname = "Pragadeesh"
 var frole = "Web"
 
-HTMLheaderName = HTMLheaderName.replace("%data%", fname);
-HTMLroleName = HTMLroleName.replace("%data%", frole);
+htmln = HTMLheaderName.replace("%data%", fname);
+htmlr = HTMLheaderRole.replace("%data%", frole);
 
-$("header").append(HTMLheaderName);
-$("header").prepend(HTMLroleName);
+$("header").append(htmln);
+$("header").prepend(htmlr);
